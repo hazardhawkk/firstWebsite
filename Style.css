@@ -1,31 +1,46 @@
 body {background-color: gray;}
 
 /* classes: */
-.white-text
-{
-    color:white;
-}
-
 .monospace
 {
  font-family: monospace;
 }
 
-.lobster
-{
- font-family: Lobster;
-}
 
-/* changes to whole text elements */
-h1{
+/* changes to whole text elements: */
+header {
     font-size:60px;
     text-align:center;
+    color:white;
+    font-family: Lobster;
 }
 
-/*  variables for the bar at the top:   */
-:root{
-    --bar-width: 20%;
-    --bar-border-style: solid;
---bar-bg-color: silver;
---bar-text-alignment: center;
+nav ul li{
+display: inline-block;
+color:rgb(255, 255, 255);
+font-weight: bold;
+font-family: Verdana,sans-serif;
+letter-spacing: 2px ;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{                   /*navbar boxes: */
+border-style: solid;
+border-color: rgb(96, 94, 94);
+padding: 10px 60px ;    /* <--change box size here */     
+background-color: rgb(170, 169, 169) ;
+}
+
+nav{     /*box sorrounding navbar*/
+    border-style:double;  
+    border-width: 6px;
+    width: 1668px;
+    background-color: rgb(159, 168, 179);
+    border-color:rgb(96, 94, 94) ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 40px
 }
