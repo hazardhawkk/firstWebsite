@@ -13,7 +13,7 @@ function hash(str)
 
 function CheckAnswer(actualAns, questionNum) //questionNum is a string, actualAns is hash
 {
-let attemptedAns = hash(document.getElementById("Ans"+questionNum).textContent); //gets hash of answer attempted
+let attemptedAns = hash(document.getElementById("Ans"+questionNum).value); //gets hash of answer attempted
 
 if (attemptedAns == actualAns){response="CORRECT!!";}
 else{response="no...";}
