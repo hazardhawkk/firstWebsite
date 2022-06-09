@@ -50,3 +50,32 @@ nav{     /*box sorrounding navbar*/
     margin-right: auto;
     padding-right: 40px
 }
+/*survey stuff:*/
+survey_trigger{
+    float: right;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    width: 120px;
+    height: 55px;
+    background-color: rgb(159, 168, 179);
+    color:rgb(31, 39, 46);
+}
+
+survey{
+    float: right;
+    border-style:solid;
+    border-width: 2px;
+    border-color: rgba(240, 255, 255, 0.698);
+    background-color:rgb(159, 168, 179);
+    padding: 0px 10px;
+    margin: 2px 0px 0px 1500px;
+}
+survey h4, survey h3{
+    color:rgb(31, 39, 46);
+}
+survey input{
+    color:rgb(31, 39, 46);;
+    background-color: azure;
+    font-size: medium;
+}
