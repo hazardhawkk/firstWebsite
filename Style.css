@@ -61,8 +61,11 @@ survey_trigger{
     background-color: rgb(159, 168, 179);
     color:rgb(31, 39, 46);
 }
-
 survey{
+    display:none;
+}
+survey_trigger:hover +survey, survey:hover {
+    display: block;
     float: right;
     border-style:solid;
     border-width: 2px;
