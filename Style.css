@@ -90,13 +90,15 @@ models ul{
 
 models ul a li{
     display: inline-block;
-    padding: 100px 150px; /*box size*/
     margin: 50px; /*box spacing*/
     border-style: solid;
     border-color: rgb(96, 94, 94);
+    background-color: #3b3b3b; /*same as blender bg color to fill bad gaps*/
+
 }
 
 
-survey{
-    margin-left: -100px;
+/*images: 4:3 is ratio*/
+img{
+ width: 450px; /*image size*/
 }
