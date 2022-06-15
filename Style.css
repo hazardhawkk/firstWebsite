@@ -39,6 +39,9 @@ nav ul{
     text-align: center;
 }
 
+#currentPage{
+    border-color:  rgba(255, 254, 254, 0.466);
+}
 
 nav{     /*box sorrounding navbar*/
     border-style:double;  
@@ -83,22 +86,41 @@ survey input{
     font-size: medium;
 }
            /*model boxes: */
-models ul{
+model {
     text-align: center;
     margin-right: 8%;
 }
 
-models ul a li{
-    display: inline-block;
+model a{
     margin: 50px; /*box spacing*/
+    display: inline-block;
     border-style: solid;
     border-color: rgb(96, 94, 94);
     background-color: #3b3b3b; /*same as blender bg color to fill bad gaps*/
+}
 
+model a label{
+   text-decoration: none;
+   border-style: solid;
+   border-color: aliceblue;
+   color: rgb(0, 252, 105);
+   
+   margin-bottom: px;
 }
 
 
 /*images: 4:3 is ratio*/
 img{
  width: 450px; /*image size*/
+}
+
+/*Under image boxes*/
+
+label ul li{
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    padding:20px 40px;
+    margin-top: -2000px;
+    margin-bottom: 2000px;
 }

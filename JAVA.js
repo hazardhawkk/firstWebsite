@@ -21,6 +21,7 @@ else{response="no...";}
 document.getElementById("response"+questionNum).innerHTML=response;  //<- writes response
 }
 
+var text = "general";
 
 
 
