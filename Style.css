@@ -85,42 +85,38 @@ survey input{
     background-color: azure;
     font-size: medium;
 }
+
            /*model boxes: */
-model {
-    text-align: center;
-    margin-right: 8%;
+models{
+    display: inline-block;
+    margin-right: 8px;
 }
 
-model a{
+models a{
+    text-decoration: none;
+}
+
+models a img{
     margin: 50px; /*box spacing*/
-    display: inline-block;
     border-style: solid;
     border-color: rgb(96, 94, 94);
     background-color: #3b3b3b; /*same as blender bg color to fill bad gaps*/
 }
 
-model a label{
-   text-decoration: none;
+models a label{
+   font-size: 20px;
+   font-family: monospace;
+   padding: 2px 10px;
    border-style: solid;
-   border-color: aliceblue;
-   color: rgb(0, 252, 105);
-   
-   margin-bottom: px;
+   border-color: #3b3b3b;
+   color:rgb(198, 194, 194);
+   background-color: rgb(96, 94, 94);
+   position: relative;
+   right:510px;
+   bottom:20px; 
 }
-
 
 /*images: 4:3 is ratio*/
 img{
  width: 450px; /*image size*/
-}
-
-/*Under image boxes*/
-
-label ul li{
-    display: inline-block;
-    border-style: solid;
-    border-radius: 10px;
-    padding:20px 40px;
-    margin-top: -2000px;
-    margin-bottom: 2000px;
 }
