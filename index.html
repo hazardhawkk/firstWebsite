@@ -32,7 +32,7 @@
 
 <header> General </header>
 
-<input id="Search" type="text" placeholder="Search Here e.g. Car"> <!--Search box-->
+<input id="Search" type="text" onchange="search()" placeholder="Search Here e.g. Car"> <!--Search box-->
 
 <survey_trigger> 
   <h4>Answer these?</h4> 
@@ -57,11 +57,11 @@
 
  
       <!--image aspect ratio is 4:3-->
-<models>
-<a href="" download="DownloadableModels/Mug.blend" >  <img src="ModelPhotos/Cup.png" alt="">  <label for="">Mug</label>               </a>
-<a href="" download="DownloadableModels/Headphones.blend">  <img src="ModelPhotos/Headphones.png" alt="">  <label for="">Headphones</label> </a>
-<a href="" download="DownloadableModels/Pencil.blend">  <img src="ModelPhotos/Pencil.png" alt="">  <label for="">Pencil</label>         </a>
-<a href="" download="DownloadableModels/Apple.blend">  <img src="ModelPhotos/Apple.png" alt="">  <label for="">Apple</label>           </a>
+<models id="Models">
+<a href="" download="DownloadableModels/Mug.blend" id="Mug">  <img src="ModelPhotos/Cup.png" alt="">  <label for="">Mug</label>               </a>
+<a href="" download="DownloadableModels/Headphones.blend" id="Headphones">  <img src="ModelPhotos/Headphones.png" alt="">  <label for="">Headphones</label> </a>
+<a href="" download="DownloadableModels/Pencil.blend" id="Pencil">  <img src="ModelPhotos/Pencil.png" alt="">  <label for="">Pencil</label>         </a>
+<a href="" download="DownloadableModels/Apple.blend" id="Apple">  <img src="ModelPhotos/Apple.png" alt="">  <label for="">Apple</label>           </a>
 </models>
 
 </body>

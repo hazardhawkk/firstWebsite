@@ -23,5 +23,14 @@ document.getElementById("response"+questionNum).innerHTML=response;  //<- writes
 
 var text = "general";
 
+function search()
+{
+  document.getElementById("Search").innerHTML="gfdgfdg";
+let searchText = document.getElementById("Search").value;
+
+let parent = document.getElementById("Models");
+let child = document.getElementById(searchText);
+parent.removeChild(child);
+}
 
 
