@@ -1,0 +1,141 @@
+body {background-color: gray;}
+
+/* classes are below: */
+.monospace
+{
+ font-family: monospace;
+}
+
+
+/* changes to whole text elements are below: */
+header {
+    font-size:60px;
+    text-align:center;
+    color:white;
+    font-family: Lobster;
+}
+
+nav ul li{
+color:rgb(255, 255, 255);
+font-weight: bold;
+font-family: Verdana,sans-serif;
+letter-spacing: 2px ;
+}
+
+nav ul li{                   /*navbar boxes: */
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(96, 94, 94);
+    padding: 10px 60px ;    /* <--change box size here (second px value)*/     
+    background-color: rgb(170, 169, 169) ;
+    }
+
+nav ul a li:hover{
+    color:rgb(111, 111, 111) ;
+    background-color: rgb(207, 207, 207) ;
+    }
+
+nav ul{
+    text-align: center;
+}
+
+#currentPage{
+    border-color:  rgba(255, 254, 254, 0.466);
+}
+
+nav{     /*box sorrounding navbar*/
+    border-style:double;  
+    border-width: 6px;
+    width: 1668px;
+    background-color: rgb(159, 168, 179);
+    border-color:rgb(96, 94, 94) ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 40px
+}
+/*survey stuff:*/
+survey_trigger{
+    float: right;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    width: 120px;
+    height: 55px;
+    background-color: rgb(159, 168, 179);
+    color:rgb(31, 39, 46);
+}
+survey{
+    display:none;
+}
+survey_trigger:hover +survey, survey:hover {
+    display: block;
+    float: right;
+    border-style:solid;
+    border-width: 2px;
+    border-color: rgba(240, 255, 255, 0.698);
+    background-color:rgb(159, 168, 179);
+    padding: 0px 10px;
+    margin-left: 1500px;
+}
+survey h4, survey h3{
+    color:rgb(31, 39, 46);
+}
+survey input{
+    color:rgb(31, 39, 46);;
+    background-color: azure;
+    font-size: medium;
+}
+
+           /*model boxes: */
+models{
+    display: inline-block;
+}
+
+models a{
+    text-decoration: none;
+}
+
+models a img{
+    margin: 50px; /*box spacing*/
+    border-style: solid;
+    border-color: rgb(96, 94, 94);
+    background-color: #3b3b3b; /*same as blender bg color to fill bad gaps*/
+}
+
+models a label{
+   font-size: 20px;
+   font-family: monospace;
+   padding: 2px 10px;
+   border-style: solid;
+   border-color: #3b3b3b;
+   color:rgb(198, 194, 194);
+   background-color: rgb(96, 94, 94);
+   position: relative;
+   right:510px;
+   bottom:20px; 
+}
+
+/*images: 4:3 is ratio*/
+img{
+ width: 450px; /*image size*/
+}
+
+#Search{
+    color:rgb(96, 94, 94);
+    background-color: rgb(159, 168, 179);
+    border-color:rgb(96, 94, 94) ;
+    border-style:solid;
+    border-width: 3px;
+    width: 250px;
+    height: 25px;
+    position: relative;
+    left: 1542px;
+    bottom: 52px;
+    font-weight: 700; /*more than placeholder weight*/
+    font-size: 15px;
+}
+input::placeholder{
+    color: rgba(96, 94, 94, 0.616);
+    font-weight: 500;
+    font-size: 15px;
+}

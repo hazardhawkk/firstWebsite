@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "\\\\scg.shrewsbury.ac.uk\\files\\EB\\Student_Documents\\21235452\\Documents\\Computer Science\\web dev\\New folder\\firstWebsite-main\\index.html"
+        }
+    ]
+}
